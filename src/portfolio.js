@@ -10,9 +10,10 @@ const greeting = {
   /* Your Summary And Greeting Section */
   title: "Hi all 👋 I'm Rohan",
   nickname: "Full Stack Developer",
-  subTitle: `An Engineer with a strong programming background and experience in multiple programming languages including 
-  Javascript, Typescript to solve challenging problems. Expertise in developing features end to end on React, ReactNative, NodeJS and Python.`,
-  resumeLink: "",
+  subTitle: `A Software-Engineer with a strong programming background and experience in multiple programming languages including 
+  Javascript and Typescript to solve challenging problems. Expertise in developing features end to end on React, ReactNative, NodeJS and Python.`,
+  resumeLink:
+    "https://drive.google.com/file/d/1Y8iShOx6HXqQREZWdsoC1v1j9BEbNbWL/view?usp=sharing",
 };
 
 const socialMediaLinks = {
@@ -203,7 +204,7 @@ const degrees = {
     {
       title: "Abhinav Vidyalay",
       subtitle: "ISC - Computer Science",
-      logo_path: "apshah.png",
+      logo_path: "abhinav.jpg",
       alt_name: "Abhinav Vidyalay",
       duration: "2013 - 2015",
       descriptions: [
@@ -267,6 +268,15 @@ const certifications = {
       certificate_link: "https://www.linkedin.com/company/isg-esolutions/",
       alt_name: "IAshnik",
       color_code: "white",
+    },
+    {
+      title: "Complete 2020 Data Science & Machine Learning Bootcamp ",
+      subtitle: "- Udemy",
+      logo_path: "udemy.svg",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-eb4d30dc-5607-4af9-ae6f-bd2a60a1ec12/",
+      alt_name: "Udemy",
+      color_code: "lightgrey",
     },
   ],
 };

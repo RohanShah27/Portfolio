@@ -27,8 +27,8 @@ const emailSection = {
 const ContactData = {
   title: "Contact Me",
   profile_image_path: "profile.png",
-  description:
-    "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with both Mobile and Web Developments along with Opensource Development.",
+  description: `I am available on almost every social media. You can message me, I will reply within 24 hours.
+     I can help you with both Mobile, Web, Opensource Development, scalable and production grade API's, flexible frameworks, UI UX designing along with Logo's and Icon set designing `,
 };
 
 class Contact extends Component {

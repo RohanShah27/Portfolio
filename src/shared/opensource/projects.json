@@ -28,7 +28,7 @@
       "name": "color-picker",
       "createdAt": "2019-02-27T11:54:02Z",
       "url": "https://github.com/RohanShah27/Color-Picker",
-      "description": "TA simple color picker component crafted for react apps.",
+      "description": "A simple color picker component crafted for react apps.",
       "isFork": false,
       "languages": [
         { "name": "Python", "iconifyClass": "logos-javascript" },
@@ -54,6 +54,39 @@
       "description": "IOT based home automation system for specially abled people.",
       "isFork": false,
       "languages": [{ "name": "C++", "iconifyClass": "logos-c-sharp" }]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXOvcnkxOTQ1NDkxNzA=",
+      "name": "login-signup",
+      "createdAt": "2020-03-10T18:39:32Z",
+      "url": "https://github.com/RohanShah27/Login-Signup/tree/develop",
+      "description": "A template for login and signup form with end-to-end encyrption using RSA 256 and saving data in database",
+      "isFork": false,
+      "languages": [
+        { "name": "ReactJS", "iconifyClass": "logos-react" },
+        { "name": "NodeJS", "iconifyClass": "logos-nodejs" }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXOvcnkxYTQ1NDkxNzA=",
+      "name": "circket-app",
+      "createdAt": "2019-08-10T18:39:32Z",
+      "url": "https://github.com/RohanShah27/Cricket-App",
+      "description": "A web app for all cricket Lovers. Here you can view all matches, players, their stats for both men and women. A search feature to search for both players and teams along with a beautiful home page displaying fixtures, news and recent matches played in selected gender.",
+      "isFork": false,
+      "languages": [
+        { "name": "ReactJS", "iconifyClass": "logos-react" },
+        { "name": "NodeJS", "iconifyClass": "logos-nodejs" }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXOvcnkxYTQ1NDkxNzA=",
+      "name": "illustrations",
+      "createdAt": "2019-11-10T18:39:32Z",
+      "url": "https://github.com/RohanShah27/Illustrations",
+      "description": "Illustraitions that I created for small clients and business",
+      "isFork": false,
+      "languages": [{ "name": "Figma", "iconifyClass": "logos-figma" }]
     }
   ]
 }

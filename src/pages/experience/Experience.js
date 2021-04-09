@@ -8,19 +8,20 @@ import { Fade } from "react-reveal";
 const experience = {
   title: "Past Experiences",
   subtitle: "",
-  description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+  description: `I have worked with many evolving startups as Full-Stack Developer, Designer and Software Architect.
+     Development has always been my passion and that is why I am also involved with many opensource communities as a developer to create different frameworks.
+     You can find my work for my current firm in the section below.`,
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work",
       experiences: [
         {
-          title: "Data Scientist",
+          title: "Full-Stack Developer",
           company: "Headstrait",
           company_url: "https://www.linkedin.com/company/headstrait/",
           logo_path: "hs_logo.png",
-          duration: "April 2020 - Present",
+          duration: "June 2019 - Present",
           location: "Mumbai, Maharashtra",
           description: [
             `Designed and developed PoC for a voice banking app with features like adding credit/debit cards,
@@ -37,6 +38,9 @@ const experience = {
             `Major focus on TDD (Test Driven Development)
 			`,
             `Created high fidelity prototypes using Figma for multiple projects.`,
+            `Developed a KYC system by integrating thrid party biometric scanners for native application from scratch to onboard customers`,
+            `Created a 2FA framework for multiple API endpoints.`,
+            `Created AB Testing framework for React native applications for a small group of users.`,
           ],
           color: "#9b1578",
         },
