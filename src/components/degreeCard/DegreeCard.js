@@ -13,7 +13,7 @@ class DegreeCard extends Component {
               style={{
                 maxWidth: "100%",
                 maxHeight: "100%",
-                transform: "scale(-50%, -50%)",
+                // transform: "scale(-50%, -50%)",  // Preventing default behaviour of rotate 
                 borderRadius: "50%",
               }}
               src={require(`../../assests/images/${degree.logo_path}`)}

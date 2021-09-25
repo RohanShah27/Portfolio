@@ -17,6 +17,27 @@ const experience = {
       title: "Work",
       experiences: [
         {
+          title: "Associate Developer",
+          company: "Sportz Interactive",
+          company_url: "https://www.sportzinteractive.net/",
+          logo_path: "si_logo.png",
+          duration: "June 2021 - Present",
+          location: "Mumbai, Maharashtra",
+          description: [
+            `Developed fantasy gaming solution for Euro 2022 UEFA and provided support for live and post tournament related scenarios.`,
+            `Enhancements, bug fixes, optimizations and new developments for UCL 2022 UEFA Fantasy game.`,
+            `Creating and enhancing widgets made as web components to be used on external web apps.`,
+            `Working on UEFA Champions League Fantasy Game and SEO management.`,
+            `Following process of CICD and taking lead on all web related development for UEFA projects`,
+            `Major focus on Code splitting and chunking to make optimized web app.`,
+            `Also taking care of S3 bucket management for all assets and builds for the web app and image caching.`,
+            `Working with UEFA designers to create smooth widgets on web for parent websites to ingest.`,
+            `Using one sky for in game translations.`,
+            `Helping QA team with game simulations using the admin to simulate different scenarios for end to end testing of the game.`,
+          ],
+          color: "#9b1578",
+        },
+        {
           title: "Full-Stack Developer",
           company: "Headstrait",
           company_url: "https://www.linkedin.com/company/headstrait/",
@@ -44,6 +65,22 @@ const experience = {
           ],
           color: "#9b1578",
         },
+        {
+          title: "Intern",
+          company: "Lipi Data Systems LTD",
+          company_url: "https://lipi.in/",
+          logo_path: "lipi_logo.png",
+          duration: "May 2018 - June 2018",
+          location: "Vashi, Maharashtra",
+          description: [
+            `Underwent a Project on Website Maintenance and System Administration on ASP.net and MySQL database.
+            Work on PHP and SQL to improve the back end of the company's website.`,
+            `Studied their server management process and underwent a small session on details about the global server.`,
+            
+          ],
+          color: "#9b1578",
+        },
+        
       ],
     },
   ],
