@@ -26,7 +26,7 @@ const emailSection = {
 
 const ContactData = {
   title: "Contact Me",
-  profile_image_path: "profile.png",
+  profile_image_path: "profile.jpg",
   description: `I am available on almost every social media. You can message me, I will reply within 24 hours.
      I can help you with both Mobile, Web, Opensource Development, scalable and production grade API's, flexible frameworks, UI UX designing along with Logo's and Icon set designing `,
 };
@@ -41,9 +41,9 @@ class Contact extends Component {
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
                 <img
-                  style={{ borderRadius: "50%" }}
+                  style={{ borderRadius: "22%" }}
                   src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
-                  alt=""
+                  alt="Rohan Shah"
                 />
               </div>
               <div className="contact-heading-text-div">
@@ -64,7 +64,7 @@ class Contact extends Component {
           </Fade>
           <Fade bottom duration={1000} distance="40px">
             <div className="address-heading-div">
-              <div className="contact-heading-img-div">
+              <div className="contact-heading-img-div mobile-avatar">
                 <img
                   src={require(`../../assests/images/${addressSection["avatar_image_path"]}`)}
                   alt=""

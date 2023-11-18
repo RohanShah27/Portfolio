@@ -1,5 +1,5 @@
 .contact-main {
-    width: 100vw;
+  width: 100vw;
 }
 
 .basic-contact {
@@ -12,57 +12,61 @@
 }
 
 .blog-heading-div {
-    display: flex;
+  display: flex;
 }
 
 .address-heading-div {
-    display: flex;
-    margin-top: 80px;
+  display: flex;
+  margin-top: 80px;
 }
 
-.blog-heading-div > * {
-    flex: 1;
-}
-
-.contact-heading-div > * {
+.blog-heading-div>* {
   flex: 1;
 }
 
-.address-heading-div > * {
-    flex:1;
+.contact-heading-div>* {
+  flex: 1;
+}
+
+.address-heading-div>* {
+  flex: 1;
 }
 
 .contact-heading-img-div {
+  display: flex;
   align-items: center;
   justify-content: center;
-  text-align-last: center;
 }
 
 .blog-heading-img-div {
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-heading-text-div {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .blog-heading-text-div {
-    text-align: center;
+  text-align: center;
 }
 
-.address-heading-text-div{
-    text-align: center;
+.address-heading-text-div {
+  text-align: center;
 }
 
-.contact-heading-img-div > img {
+.contact-heading-img-div>img {
   max-width: 75%;
-  height: auto;
+  height: 80%;
 }
 
-.blog-heading-img-div > img{
-    max-width: 100%;
-    height: auto;
+.blog-heading-img-div>img {
+  max-width: 100%;
+  height: auto;
 }
 
 .contact-heading-text {
@@ -75,7 +79,7 @@
 }
 
 .blog-heading-text {
-    font-size: 56px;
+  font-size: 56px;
   font-weight: 400;
   font-family: "Google Sans Medium";
   line-height: 1.1;
@@ -84,47 +88,47 @@
 }
 
 .address-heading-text {
-    font-size: 30px;
+  font-size: 30px;
   font-family: "Google Sans Regular";
   text-align: center;
   margin-bottom: 10px;
 }
 
 .contact-header-detail-text {
-    font-size: 20px;
+  font-size: 20px;
   line-height: 30px;
-  margin-top:0px;
+  margin-top: 0px;
   margin-left: 20px;
   margin-right: 20px;
   font-family: "Google Sans Medium";
 }
 
 .blog-header-detail-text {
-    font-size: 20px;
+  font-size: 20px;
   line-height: 30px;
-  margin-top:0px;
+  margin-top: 0px;
   margin-left: 20px;
   margin-right: 20px;
   font-family: "Google Sans Medium";
 }
 
 .resume-btn-div {
-    width:100%;
-    display: flex;
-    justify-content:center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .blogsite-btn-div {
-    width:100%;
-    display: flex;
-    justify-content:center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .address-btn-div {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
 }
 
 
@@ -135,46 +139,60 @@
   }
 
   .blog-heading-text {
-      font-size: 50px;
-      margin-top: 40px;
+    font-size: 50px;
+    margin-top: 40px;
   }
 }
 
 @media (max-width: 768px) {
   .contact-heading-text {
+    /* font-size: 30px;
+    margin-top: 0px; */
+    display: none;
+  }
+
+  .blog-heading-text {
     font-size: 30px;
     margin-top: 0px;
   }
 
-  .blog-heading-text {
-      font-size: 30px;
-      margin-top: 0px;
-  }
-
   .address-heading-text {
-      font-size: 20px;
+    font-size: 20px;
   }
 
   .blog-heading-div {
-      flex-direction: column-reverse;
-      margin-top: 60px;
+    flex-direction: column-reverse;
+    margin-top: 60px;
   }
 
   .address-heading-div {
-      flex-direction: column;
-      margin-top: 60px;
+    flex-direction: column;
+    margin-top: unset;
   }
 
   .blog-heading-text-div {
-      margin-top: 40px;
+    margin-top: 40px;
   }
 
   .address-heading-text-div {
-      margin-top: 40px;
+    margin-top: unset;
   }
 
   .contact-heading-div {
     flex-direction: column;
+    gap: 10px;
+  }
+
+  .contact-heading-text-div {
+    flex-direction: column-reverse;
+  }
+
+  .resume-btn-div {
+    margin-bottom: 10px;
+  }
+
+  .mobile-avatar {
+    display: none;
   }
 
   .contact-header-detail-text {
@@ -186,7 +204,7 @@
   }
 
   .blog-header-detail-text {
-      font-size: 16px;
+    font-size: 16px;
     margin-left: 0px;
     margin-right: 0px;
     line-height: normal;
