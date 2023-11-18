@@ -1,9 +1,15 @@
 .experience-card {
     width: 100%;
     margin-bottom: 20px;
-    border-radius:10px;
+    border-radius: 10px;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
+}
+
+.experience-circle {
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
 }
 
 .experience-card-logo-div {
@@ -20,7 +26,9 @@
 }
 
 .experience-card-logo {
-    width: 70px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .experience-card-title {
@@ -76,42 +84,42 @@
 }
 
 
-.experience-card-company > a {
+.experience-card-company>a {
     position: relative;
     color: #000;
     text-decoration: none;
 }
 
-.experience-card-company > a:hover {
+.experience-card-company>a:hover {
     color: #000;
-} 
-
-.experience-card-company > a:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
 }
 
-.experience-card-company > a:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  bottom: 0;
-  left: 0;
-  background-color: #000;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-} 
+.experience-card-company>a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.experience-card-company>a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
 
 
 @media (max-width: 768px) {
-    .experience-card{
-        margin-bottom:10px;
-        flex-direction:column;
+    .experience-card {
+        margin-bottom: 10px;
+        flex-direction: column;
         text-align: center;
     }
 
@@ -119,9 +127,7 @@
         width: 100px;
     }
 
-    .experience-card-body-div {
-        
-    }
+    .experience-card-body-div {}
 
     .experience-card-heading-left {
         float: center;
@@ -148,7 +154,7 @@
         text-align: center;
     }
 
-    .experience-card-location{
+    .experience-card-location {
         /* text-align: left; */
         text-align: center;
     }

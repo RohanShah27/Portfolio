@@ -17,11 +17,29 @@ const experience = {
       title: "Work",
       experiences: [
         {
+          title: "SDE - 2",
+          company: "Shopsense Fynd",
+          company_url: "https://www.fynd.com/",
+          logo_path: "fynd.webp",
+          duration: "April 2022 - Present",
+          location: "Mumbai, Maharashtra",
+          description: [
+            `Contributing to Core Catalog ecosystem to enhance the UI/UX and ensure scalability, and taking Fynd International.`,
+            `Solr Improvements, R&D on Typesense search and Algolia extension development.`,
+            `Developed and released two extensions, the Packaging Order and Size Comparison, to assist sellers in managing their products and orders more effectively.`,
+            `Spearheaded the development of the core rewards system that powers the referral programs of Fynd and Tira's by migrating it from Go Lang to Node JS that served a significant load over multiple sales.`,
+            `Spearheaded the development and launch of a new design system on React JS and TypeScript framework that is now being utilised across multiple FYND's products.`,
+            `Made significant contributions to the development of the 'One-Click Fynd Platform Deployment - Monorepo' project, which involved integrating over 43 services and writing multiple data scaffolding scripts.`,
+            `Contributing to the UI automation ecosystem using Playwright by developing rules and refining the development process to improve overall efficiency.`
+          ],
+          color: "#9b1578",
+        },
+        {
           title: "Associate Developer",
           company: "Sportz Interactive",
           company_url: "https://www.sportzinteractive.net/",
           logo_path: "si_logo.png",
-          duration: "June 2021 - Present",
+          duration: "June 2021 - April 2022",
           location: "Mumbai, Maharashtra",
           description: [
             `Developed fantasy gaming solution for Euro 2022 UEFA and provided support for live and post tournament related scenarios.`,

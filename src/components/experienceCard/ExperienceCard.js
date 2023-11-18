@@ -10,12 +10,13 @@ class ExperienceCard extends Component {
         style={{ border: `1px solid ${experience["color"]}` }}
       >
         <div className="experience-card-logo-div">
+          <div className="experience-circle">
           <img
-            style={{borderRadius:"30px"}}
             className="experience-card-logo"
             src={require(`../../assests/images/${experience["logo_path"]}`)}
             alt=""
           />
+          </div>
         </div>
         <div className="experience-card-body-div">
           <div className="experience-card-header-div">

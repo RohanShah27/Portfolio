@@ -9,7 +9,7 @@ import "./ContactComponent.css";
 
 const addressSection = {
   title: "Address",
-  subtitle: "Shantiniketan CHS Dombivali (East), Thane - 421204",
+  subtitle: "Ghatkopar, Mumbai - 400086",
   avatar_image_path: "address_image.svg",
   location_map_link: "https://goo.gl/maps/oyqbqxMZtwthEJXK7",
 };

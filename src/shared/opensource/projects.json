@@ -8,7 +8,10 @@
       "description": "A payment card display component and card validator for react native applications.",
       "isFork": false,
       "languages": [
-        { "name": "JavaScript", "iconifyClass": "logos-javascript" }
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
       ]
     },
     {
@@ -19,8 +22,14 @@
       "description": "Use of LBPH algorithm has been made to develop and design a face detection and recognitation system on python using numpy.",
       "isFork": false,
       "languages": [
-        { "name": "Python", "iconifyClass": "logos-python" },
-        { "name": "Jupyter Notebook", "iconifyClass": "logos-jupyter" }
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Jupyter Notebook",
+          "iconifyClass": "logos-jupyter"
+        }
       ]
     },
     {
@@ -31,8 +40,14 @@
       "description": "A simple color picker component crafted for react apps.",
       "isFork": false,
       "languages": [
-        { "name": "Python", "iconifyClass": "logos-javascript" },
-        { "name": "HTML5", "iconifyClass": "logos-html-5" }
+        {
+          "name": "Python",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "HTML5",
+          "iconifyClass": "logos-html-5"
+        }
       ]
     },
     {
@@ -43,7 +58,10 @@
       "description": "A simple JavaScript logger that covers logging API's and browsers console logs in a manner where you can define the level of logs.",
       "isFork": false,
       "languages": [
-        { "name": "JavaScript", "iconifyClass": "logos-javascript" }
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
       ]
     },
     {
@@ -53,7 +71,12 @@
       "url": "https://github.com/RohanShah27/Home-Automation-System",
       "description": "IOT based home automation system for specially abled people.",
       "isFork": false,
-      "languages": [{ "name": "C++", "iconifyClass": "logos-c-sharp" }]
+      "languages": [
+        {
+          "name": "C++",
+          "iconifyClass": "logos-c-sharp"
+        }
+      ]
     },
     {
       "id": "MDEwOlJlcG9zaXOvcnkxOTQ1NDkxNzA=",
@@ -63,8 +86,14 @@
       "description": "A template for login and signup form with end-to-end encyrption using RSA 256 and saving data in database",
       "isFork": false,
       "languages": [
-        { "name": "ReactJS", "iconifyClass": "logos-react" },
-        { "name": "NodeJS", "iconifyClass": "logos-nodejs" }
+        {
+          "name": "ReactJS",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "NodeJS",
+          "iconifyClass": "logos-nodejs"
+        }
       ]
     },
     {
@@ -75,8 +104,14 @@
       "description": "A web app for all cricket Lovers. Here you can view all matches, players, their stats for both men and women. A search feature to search for both players and teams along with a beautiful home page displaying fixtures, news and recent matches played in selected gender.",
       "isFork": false,
       "languages": [
-        { "name": "ReactJS", "iconifyClass": "logos-react" },
-        { "name": "NodeJS", "iconifyClass": "logos-nodejs" }
+        {
+          "name": "ReactJS",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "NodeJS",
+          "iconifyClass": "logos-nodejs"
+        }
       ]
     },
     {
@@ -86,7 +121,12 @@
       "url": "https://github.com/RohanShah27/Illustrations",
       "description": "Illustraitions that I created for small clients and business",
       "isFork": false,
-      "languages": [{ "name": "Figma", "iconifyClass": "logos-figma" }]
+      "languages": [
+        {
+          "name": "Figma",
+          "iconifyClass": "logos-figma"
+        }
+      ]
     }
   ]
 }
