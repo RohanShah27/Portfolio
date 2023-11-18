@@ -1,7 +1,7 @@
 .dev-icons {
   padding-left: 0;
   list-style: none;
-  font-size: 3rem;
+  font-size: 2.6rem;
   margin-bottom: 0px;
   margin-top: 0px;
   text-align: center;
@@ -10,14 +10,21 @@
 .software-skill-inline {
   display: inline-block;
   margin-right: 20px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   font-family: "Google Sans Regular";
 }
 
-.software-skill-inline > i {
+.software-skill-inline>i {
   color: #868e96;
 }
 
-.software-skill-inline > i:hover {
+.software-skill-inline>i:hover {
   color: #645beb;
+}
+
+
+@media (max-width:768px) {
+  .dev-icons {
+    font-size: 1.2rem;
+  }
 }

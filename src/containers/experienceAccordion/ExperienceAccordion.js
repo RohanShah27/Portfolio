@@ -7,7 +7,7 @@ class ExperienceAccordion extends Component {
 	render() {
 		return (
 			<div className="experience-accord">
-				<Accordion initialState accordion onChange={({ expanded }) => console.log(expanded)}>
+				<Accordion initialState={{expanded:["Work"]}} onChange={({ expanded }) => console.log(expanded)}>
 					{this.props.sections.map((section) => {
 						return (
 							<Panel className="accord-panel" title={section["title"]} key={section["title"]}>

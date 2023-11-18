@@ -11,7 +11,7 @@
   display: flex;
 }
 
-.experience-heading-div > * {
+.experience-heading-div>* {
   flex: 1;
 }
 
@@ -20,11 +20,19 @@
   justify-content: center;
 }
 
-.experience-heading-text-div {
-  text-align: center;
+@media (max-width: 768px) {
+  .experience-heading-img-div {
+    display: none;
+  }
 }
 
-.experience-heading-img-div > img {
+.experience-heading-text-div {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.experience-heading-img-div>img {
   max-width: 100%;
   height: auto;
 }
@@ -46,9 +54,9 @@
 }
 
 .experience-header-detail-text {
-    font-size: 20px;
+  font-size: 20px;
   line-height: 30px;
-  margin-top:0px;
+  margin-top: 0px;
   margin-left: 20px;
   margin-right: 20px;
   font-family: "Google Sans Medium";
@@ -59,6 +67,7 @@
     font-size: 50px;
     margin-top: 80px;
   }
+
   .experience-heading-sub-text {
     font-size: 25px;
   }

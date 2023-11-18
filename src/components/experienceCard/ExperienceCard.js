@@ -9,7 +9,7 @@ class ExperienceCard extends Component {
         className="experience-card"
         style={{ border: `1px solid ${experience["color"]}` }}
       >
-        <div className="experience-card-logo-div">
+        {/* <div className="experience-card-logo-div">
           <div className="experience-circle">
           <img
             className="experience-card-logo"
@@ -17,10 +17,18 @@ class ExperienceCard extends Component {
             alt=""
           />
           </div>
-        </div>
+        </div> */}
         <div className="experience-card-body-div">
           <div className="experience-card-header-div">
             <div className="experience-card-heading-left">
+            <div className="experience-circle">
+          <img
+            className="experience-card-logo"
+            src={require(`../../assests/images/${experience["logo_path"]}`)}
+            alt=""
+          />
+              </div>
+              <div>
               <h3 className="experience-card-title">{experience["title"]}</h3>
               <p className="experience-card-company">
                 <a
@@ -31,6 +39,8 @@ class ExperienceCard extends Component {
                   {experience["company"]}
                 </a>
               </p>
+              </div>
+              
             </div>
             <div className="experience-card-heading-right">
               <p className="experience-card-duration">
@@ -41,13 +51,13 @@ class ExperienceCard extends Component {
               </p>
             </div>
           </div>
-          <p className="experience-card-description">
+          <div className="experience-card-description">
             <ul>
               {experience["description"].map((item) => (
                 <li>{item}</li>
               ))}
             </ul>
-          </p>
+          </div>
         </div>
       </div>
     );

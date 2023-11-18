@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
-import Footer from "../../components/footer/Footer";
 import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
 import "./Experience.css";
 import { Fade } from "react-reveal";
@@ -8,9 +7,7 @@ import { Fade } from "react-reveal";
 const experience = {
   title: "Past Experiences",
   subtitle: "",
-  description: `I have worked with many evolving startups as Full-Stack Developer, Designer and Software Architect.
-     Development has always been my passion and that is why I am also involved with many opensource communities as a developer to create different frameworks.
-     You can find my work for my current firm in the section below.`,
+  description: `I have worked with many evolving startups as Full-Stack Developer, Designer and a Product manager.`,
   header_image_path: "experience.svg",
   sections: [
     {
@@ -119,7 +116,7 @@ class Experience extends Component {
                 />
               </div>
               <div className="experience-heading-text-div">
-                <h1 className="experience-heading-text">{experience.title}</h1>
+                {/* <h1 className="experience-heading-text">{experience.title}</h1> */}
                 <h3 className="experience-heading-sub-text">
                   {experience["subtitle"]}
                 </h3>
@@ -131,7 +128,6 @@ class Experience extends Component {
           </Fade>
         </div>
         <ExperienceAccordion sections={experience["sections"]} />
-        <Footer />
       </div>
     );
   }

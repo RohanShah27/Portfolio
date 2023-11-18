@@ -13,7 +13,7 @@ const greeting = {
   subTitle: `A Software-Engineer with a strong programming background and experience in multiple programming languages including 
   Javascript and Typescript to solve challenging problems. Expertise in developing features end to end on React, ReactNative, NodeJS and Python.`,
   resumeLink:
-    "https://drive.google.com/file/d/1Y8iShOx6HXqQREZWdsoC1v1j9BEbNbWL/view?usp=sharing",
+    "https://drive.google.com/file/d/1KuQJEGEr2QRmLiilfyw9hc3Opy6o1mZ6/view?usp=drive_link",
 };
 
 const socialMediaLinks = {
@@ -21,8 +21,7 @@ const socialMediaLinks = {
   github: "https://github.com/RohanShah27/",
   linkedin: "https://linkedin.com/in/rohanshah27111997/",
   gmail: "rohanshah2711@gmail.com",
-  gitlab: "https://gitlab.com/RohanShah27",
-  instagram: "https://www.instagram.com/iam_ron27/",
+  instagram: "https://www.instagram.com/rohanshah.27/",
 };
 
 const skills = {
@@ -31,12 +30,12 @@ const skills = {
       title: "Full Stack Development",
       imagePath: "fullstack.svg",
       skills: [
-        "⚡ Creating application backend in Node, Express & Flask",
-        "⚡ Developing front end website architecture using React-Redux",
-        "⚡ Designing user interactions on web pages",
-        "⚡ Ensuring cross-platform optimization for mobile phones",
-        "⚡ Creating servers and databases for functionality",
-        "⚡ Performing Test driven development and best development practices",
+        "- Production grade service development with full ownership in NodeJS, Python and GoLang.",
+        "- Front end development using React, Vue",
+        "- UI and API integration testing automation, with user event tracking.",
+        "- Ensuring cross-platform optimization for mobile phones.",
+        "- Slow query analysis and experience of working on scale.",
+        "- Experience with event driven service development using Kafka."
       ],
       softwareSkills: [
         {
@@ -69,13 +68,6 @@ const skills = {
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
           skillName: "TypeSript",
           fontAwesomeClassname: "simple-icons:typescript",
           style: {
@@ -102,12 +94,12 @@ const skills = {
       title: "UI/UX Development ",
       imagePath: "data_science.svg",
       skills: [
-        "⚡ Gather and evaluate user requirements in collaboration with product managers and engineers",
-        "⚡ Develop UI mockups and prototypes that clearly illustrate how sites function and look like",
-        "⚡ Identify and troubleshoot UX problems",
-        "⚡ Create original graphic designs",
-        "⚡ Design graphic user interface elements, like menus, tabs and widgets",
-        "⚡ llustrate design ideas using storyboards, process flows and sitemaps",
+        "- Gather and evaluate user requirements in collaboration with product managers and engineers",
+        "- Develop UI mockups and prototypes that clearly illustrate how sites function and look like",
+        "- Identify and troubleshoot UX problems",
+        "- Create original graphic designs",
+        "- Design graphic user interface elements, like menus, tabs and widgets",
+        "- llustrate design ideas using storyboards, process flows and sitemaps",
       ],
       softwareSkills: [
         {
@@ -131,10 +123,10 @@ const skills = {
       title: "Database Architecture",
       imagePath: "database.svg",
       skills: [
-        "⚡ Design of production-grade, fault-tolerant and highly scalable database",
-        "⚡ Developing database solutions to store and retrieve company information",
-        "⚡ Designing databases and writing scripts to ensure best practices being followed",
-        "⚡ Analyzing structural requirements for new software and applications",
+        "- Design of production-grade, fault-tolerant and highly scalable database",
+        "- Developing database solutions to store and retrieve company information",
+        "- Designing databases and writing scripts to ensure best practices being followed",
+        "- Analyzing structural requirements for new software and applications",
       ],
       softwareSkills: [
         {
@@ -150,14 +142,7 @@ const skills = {
           style: {
             color: "#47A248",
           },
-        },
-        {
-          skillName: "Oracle",
-          fontAwesomeClassname: "simple-icons:oracle",
-          style: {
-            color: "#1488C6",
-          },
-        },
+        }
       ],
     },
   ],
@@ -193,11 +178,11 @@ const degrees = {
       alt_name: "APSIT",
       duration: "2015 - 2019",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, AI, Computer Networking and Architecture etc",
-        "⚡ Apart from this, I have done courses on Web Development, Cloud Computing and Full Stack Development",
-        "⚡ Elected as a CSI (Computer Society of India) member for AY 2018-2019",
-        "⚡ ITSA (Information Technology Students Association) member for AY 2017-2019",
-        "⚡ Winner of Best Project of the Year AY 2018-2019",
+        "I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, AI, Computer Networking and Architecture etc",
+        "Apart from this, I have done courses on Web Development, Cloud Computing and Full Stack Development",
+        "Elected as a CSI (Computer Society of India) member for AY 2018-2019",
+        "ITSA (Information Technology Students Association) member for AY 2017-2019",
+        "Winner of Best Project of the Year AY 2018-2019",
       ],
       website_link: "https://www.apsit.edu.in/home",
     },
@@ -208,8 +193,8 @@ const degrees = {
       alt_name: "Abhinav Vidyalay",
       duration: "2013 - 2015",
       descriptions: [
-        "⚡ Took up Information Technology as my elective",
-        "⚡ Built a replica of KBC (Quiz game) mobile app game on Java.",
+        "Took up Information Technology as my elective",
+        "Built a replica of KBC (Quiz game) mobile app game on Java.",
       ],
       website_link:
         "https://www.google.com/search?sxsrf=ALeKk00whlGcFk8zjDpxMPvUBExnOuL4bA%3A1610452545576&source=hp&ei=QY79X6qsINfJrQHss4ToBQ&q=abhinav+vidyalaya+dombivli&gs_ssp=eJzj4tZP1zcsyTYpyDUvMmC0UjWoME5KNbc0tTBJSUxKSzNKM7UyqDAysUhOSjFOtTA1tUg2SDH3kkpMysjMSyxTKMtMqUzMSaxMVEjJz03KLMvJBADFxBmI&oq=abhina&gs_lcp=CgZwc3ktYWIQAxgAMg0ILhDHARCvARAnEJMCMggILhCxAxDJAzIHCC4QsQMQQzIICAAQsQMQgwEyBQguELEDMggIABCxAxCDATICCC4yCAguEMcBEK8BMgUILhCxAzIFCAAQsQM6BAgjECc6BAgAEEM6BwgAEMkDEEM6CAguELEDEIMBOgsILhCxAxDHARCjAlDGBVjIDWDuFGgAcAB4AIABlAGIAbAGkgEDMC42mAEAoAEBqgEHZ3dzLXdpeg&sclient=psy-ab",

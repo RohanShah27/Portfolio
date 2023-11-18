@@ -36,7 +36,7 @@ function Header() {
                 Experience
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink
                 to="/projects"
                 tag={Link}
@@ -44,7 +44,7 @@ function Header() {
               >
                 Projects
               </NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink
                 to="/contact"
